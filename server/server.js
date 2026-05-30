@@ -21,9 +21,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send("Portfolio Backend Running");
-});
+// app.get("/", (req, res) => {
+//   res.send("Portfolio Backend Running");
+// });
 
 app.use("/api/contact", contactRoutes);
 app.use("/api/projects", projectRoutes);
