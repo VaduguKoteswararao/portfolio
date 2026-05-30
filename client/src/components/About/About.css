@@ -1,0 +1,302 @@
+.about{
+  width:100%;
+
+  min-height:100vh;
+
+  padding:90px 7%;
+
+  display:grid;
+
+  grid-template-columns:1fr 1fr;
+
+  gap:22px;
+
+  align-items:stretch;
+}
+
+/* LEFT + RIGHT */
+
+.about-left,
+.about-right{
+  display:grid;
+
+  gap:22px;
+
+  height:100%;
+}
+
+/* PERFECT SAME ALIGNMENT */
+
+.about-left{
+  grid-template-rows:
+  0.9fr
+  0.9fr
+  1.2fr;
+}
+
+.about-right{
+  grid-template-rows:
+  0.9fr
+  2.1fr;
+}
+
+/* CARD */
+
+.about-card{
+  background:#151515;
+
+  padding:20px;
+
+  border-radius:18px;
+
+  border:1px solid #222;
+
+  transition:0.4s;
+
+  display:flex;
+
+  flex-direction:column;
+
+  justify-content:flex-start;
+}
+
+/* HOVER */
+
+.about-card:hover{
+
+  transform:translateY(-5px);
+
+  border:1px solid #00f5ff;
+
+  box-shadow:
+  0 0 18px rgba(0,245,255,0.25),
+  0 0 35px rgba(0,245,255,0.08);
+
+}
+
+/* TITLES */
+
+.about-card h2{
+  font-size:38px;
+
+  color:#00f5ff;
+
+  margin-bottom:14px;
+}
+
+.about-card h3{
+  font-size:22px;
+
+  color:#00f5ff;
+
+  margin-bottom:12px;
+}
+
+/* TEXT */
+
+.about-card p{
+  color:#ccc;
+
+  line-height:1.7;
+
+  font-size:14px;
+}
+
+.about-intro{
+  font-size:15px;
+}
+
+/* EDUCATION */
+
+.education-details{
+  display:flex;
+
+  flex-direction:column;
+
+  gap:10px;
+}
+
+.education-degree{
+  color:#00f5ff !important;
+
+  font-size:18px !important;
+
+  font-weight:600;
+}
+
+.education-details span{
+  color:#00f5ff;
+
+  margin-right:6px;
+
+  font-weight:500;
+}
+
+/* EXPERIENCE BADGE */
+
+.experience-badge{
+  width:max-content;
+
+  padding:7px 14px;
+
+  border-radius:30px;
+
+  background:rgba(0,255,136,0.1);
+
+  border:1px solid #00ff88;
+
+  color:#00ff88;
+
+  margin-bottom:14px;
+
+  font-size:12px;
+
+  font-weight:500;
+}
+
+/* TECH STACK MAIN */
+
+.tech-main-card{
+  justify-content:center;
+}
+
+/* TECH STACK */
+
+.tech-stack{
+  display:grid;
+
+  grid-template-columns:
+  repeat(4,95px);
+
+  justify-content:center;
+
+  align-content:center;
+
+  gap:16px;
+
+  margin-top:15px;
+}
+
+/* TECH CARD */
+
+.tech-card{
+  background:#1a1a1a;
+
+  width:95px;
+
+  height:95px;
+
+  display:flex;
+
+  flex-direction:column;
+
+  justify-content:center;
+
+  align-items:center;
+
+  border-radius:15px;
+
+  transition:0.3s;
+
+  border:1px solid #222;
+}
+
+.tech-card:hover{
+  transform:translateY(-5px);
+
+  border:1px solid #00f5ff;
+
+  box-shadow:0 0 12px rgba(0,245,255,0.35);
+}
+
+/* ICONS */
+
+.tech-card svg{
+  font-size:28px;
+
+  margin-bottom:8px;
+}
+
+.tech-card p{
+  font-size:12px;
+
+  color:white;
+
+  text-align:center;
+}
+
+/* UI/UX */
+
+.uiux-icon{
+  width:32px;
+
+  height:32px;
+
+  border-radius:50%;
+
+  background:#00f5ff;
+
+  color:black;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  font-weight:bold;
+
+  margin-bottom:8px;
+
+  font-size:11px;
+}
+
+/* ICON COLORS */
+
+.tech-card:nth-child(1) svg{
+  color:#61DBFB;
+}
+
+.tech-card:nth-child(2) svg{
+  color:#3C873A;
+}
+
+.tech-card:nth-child(3) svg{
+  color:#4DB33D;
+}
+
+.tech-card:nth-child(4) svg{
+  color:#ffffff;
+}
+
+.tech-card:nth-child(5) svg{
+  color:#ffffff;
+}
+
+.tech-card:nth-child(6) svg{
+  color:#FF6C37;
+}
+
+.tech-card:nth-child(7) svg{
+  color:#F24E1E;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width:992px){
+
+  .about{
+    grid-template-columns:1fr;
+  }
+
+  .about-left,
+  .about-right{
+    grid-template-rows:auto;
+  }
+
+  .tech-stack{
+    grid-template-columns:
+    repeat(2,95px);
+  }
+
+}
