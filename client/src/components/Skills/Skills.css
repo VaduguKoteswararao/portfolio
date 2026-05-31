@@ -16,6 +16,8 @@
   color:#00f5ff;
 
   margin-bottom:50px;
+  text-align: center;
+  width: 100%;
 }
 
 /* GRID */
@@ -24,7 +26,7 @@
   display:grid;
 
   grid-template-columns:
-  repeat(6,1fr);
+  repeat(2,1fr);
 
   gap:18px;
 }

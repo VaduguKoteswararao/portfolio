@@ -342,3 +342,30 @@
   }
 
 }
+
+@media (max-width: 768px) {
+
+  .hero-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .hero-image img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .hero-content {
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: 52px;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+  }
+}
