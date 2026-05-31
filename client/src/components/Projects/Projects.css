@@ -185,4 +185,8 @@
     grid-template-columns:1fr;
   }
 
+  .projects h2{
+    font-size: 48px;
+  }
+
 }

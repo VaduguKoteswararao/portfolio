@@ -366,6 +366,7 @@
   }
 
   .hero h2 {
-    font-size: 32px;
+    font-size: 38px;
+    line-height: 1.3;
   }
 }
