@@ -28,8 +28,8 @@ const Projects = () => {
       description:
       'Netflix inspired streaming platform UI with responsive layouts and premium movie browsing experience.',
       tech:['React','CSS','Firebase'],
-      github:'https://github.com/VaduguKoteswararao/netflix-clone.git',
-      live:'null',
+      github:'https://github.com/VaduguKoteswararao/netflix-clone',
+      live:'https://netflix-clone-e3lv.vercel.app',
       type:'Frontend'
     },
 
@@ -39,8 +39,8 @@ const Projects = () => {
       description:
       'Responsive educational website with reusable React components and modern clean UI design.',
       tech:['React','CSS','JavaScript'],
-      github:'https://github.com/VaduguKoteswararao/edusity.git',
-      live:'null',
+      github:'https://github.com/VaduguKoteswararao/edusity',
+      live:'https://edusity-blush-three.vercel.app',
       type:'Frontend'
     },
 
@@ -51,19 +51,18 @@ const Projects = () => {
       'Modern analytics dashboard with responsive cards, charts and finance tracking UI.',
       tech:['React','Dashboard','Charts'],
       github:'https://github.com/VaduguKoteswararao/finance-dashboard.git',
-      live:'null',
+      live:'https://finance-dashboard-beige-phi.vercel.app',
       type:'Dashboard',
       featured:true
     },
-
     {
       title:'MERN Portfolio',
       image:portfolioImg,
       description:
       'Modern full stack developer portfolio built using React and MERN stack with recruiter focused UI.',
       tech:['React','Node.js','Express','MongoDB'],
-      github:'#',
-      live:'null',
+      github:'https://github.com/VaduguKoteswararao/portfolio',
+      live:'https://portfolio-jrjy.onrender.com',
       type:'Full Stack',
       featured:true
     },
